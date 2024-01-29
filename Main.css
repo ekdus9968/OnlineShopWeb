@@ -1,0 +1,289 @@
+*{
+    font-family: 'Noto Sans', sans-serif; 
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+font-size: 48px;
+font-weight:2000;
+}
+
+.content1{
+font-size:20px;
+font-weight: bold;
+
+}
+
+.contents1_bold{
+Font-size:18px;
+Font-weight:bold;
+Text-align: right;
+Margin-top: -200px;
+Width: 350px;
+Letter-spacing: 3px;
+
+}
+
+.content2 {
+Font-size: 15px;
+}
+
+.result{
+Font-size: 15px;
+}
+
+.intro_bg{
+    background-image:url("image/icon01.pdf");
+    width:100%;
+    height:718px;
+}
+
+.header{
+    display:flex;
+    width:1280px;
+    margin:auto;
+    height:86px:
+}
+
+.search_area{
+width:300px;
+height:40px;
+background:rgba(0,0,0,0.1);
+border-radius:5px;
+margin-top:24px;
+}
+
+.search_area > form > input{
+border:none;
+width:230px;
+height:40px;
+background:rgba(0,0,0,0.0);
+color:#fff;
+padding-left:10px;
+}
+
+.search_area> form> span{
+width:50px;
+color:#fff;
+font-weight:bold;
+cursor: pointer;
+}
+
+.nav{
+display:flex;
+justify-content: flex-end;
+line-height: 86px;
+width:calc(1280px - 300px);
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.nav > li> a{
+color:#fff;
+}
+
+.intro_text{
+width: 100%;
+margin:231px auto 231px auto; 
+text-align: center;
+}
+
+
+
+.intro_text> h1,
+.intro_text> h4{
+color:#fff;
+font-weight: bold;
+}
+
+.section_list{
+display: flex;
+width:1280px;
+background: white;
+Box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+/* 좌(+,-로 좌 우 나뉨) 하 불투명도*/
+margin: auto;
+}
+
+.section_list> li{
+Flex: 1;
+Height: 132px;
+}
+
+.section_list> li> div{
+text-align: center;
+Height:57px;
+Margin-top:37px;
+}
+
+.section_list> li:not(:last-child)> div{
+Border-right:1px solid grey; 
+}
+
+/* main_text0*/
+.main_text0{
+Width: 100%;
+Height:601px;
+Margin-top: -66px;
+Background: #f1f2f3;
+}
+
+.main_text0> h1{
+Margin-top:116px;
+Text-align: center;
+
+}
+
+.main_text0> .content1{
+Text-align: center;
+}
+
+
+.icons{
+Display: flex;
+Width:1280px;
+Height: 302px;
+Margin: auto;
+}
+
+.icons > li {
+Flex:1;
+Height: 302px;
+Background: white;
+Margin-top: 49px;
+Text-align: center;
+}
+
+.icons> li> .icon_img{
+Text-align: left;
+Margin-top: 250;
+
+}
+
+.icons> li:not(:last-child) {
+margin-right:20px; 
+}
+
+.icons .content2{
+Width:10px;
+Text-align:right;
+Margin-left:68%;
+}
+
+.more{
+Width:100px;
+Height: 23px;
+Background:blue;
+Font-size:15px;
+Text-align:center;
+Margin-left:65%;
+Color:white;
+Letter-spacing: 5px;
+Margin-top: 6%;
+}
+
+/*main_text1*/
+.main_text1{
+Width:100%;
+Height:659px:
+}
+
+.main_text1>h1{
+Padding-top:90px;
+Text-align:center;
+}
+
+.main_text1> .content1 {
+Text-align: center;
+}
+
+.service {
+Width: 1280px;
+Display: flex;
+Margin:49px auto;
+Height: 427px;
+}
+
+.service> content2{
+Padding:20px;
+}
+
+.service> .content2> h2{
+Margin-bottom:100px;
+}
+
+/* main_text2 */
+.main_text2{
+Width:100%;
+Height:418px;
+Background-image:url("image/icon06.pdf")
+}
+
+.main_text2> ul{
+Display: flex;
+Padding-top: 138px;
+
+}
+
+.main_text2> ul> li{
+Flex: 1;
+Text-align:center;
+}
+
+.main_text2> ul> li> div> h1,
+.main_text2> ul> li> div{
+Color:white;
+}
+
+.more2{
+Width:220px;
+Height:40px;
+Line-height:40px;
+Margin: 16px auto;
+Border: 1px solid #fff;
+Curser: pointer;
+}
+
+/* #link_header{} */
+
+
+
+Footer{
+Background:#1f1f1f;
+Display: flex;
+}
+
+footer> div:first-child{
+Flex: 5;
+Color: #fff;
+Text-align:center;
+}
+
+footer> div:last-child{
+Flex: 7;
+Color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
